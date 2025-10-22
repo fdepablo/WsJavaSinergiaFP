@@ -1,18 +1,13 @@
 package funciones;
 
-import java.util.Scanner;
-
 public class Ejercicio1 {
 	public static void main (String[] args) {
-		Scanner sc = new Scanner(System.in);
 		System.out.println("-------- Imprimir 1 ---------");
 		imprimirPantalla();
 		System.out.println("-------- Imprimir 2 ---------");
 		imprimirPantalla();
 		System.out.println("-------- Imprimir 3 ---------");
-		imprimirPantalla();
-		
-		
+		imprimirPantalla();		
 	}
 	
 	public static void imprimirPantalla() {
