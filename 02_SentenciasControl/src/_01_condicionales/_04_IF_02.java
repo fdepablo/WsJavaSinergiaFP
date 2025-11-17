@@ -22,7 +22,7 @@ public class _04_IF_02 {
 		//Ojo que esto no es totalmente equivalente
 		if(numero1 == 5 && numero2 == 10) {
 			System.out.println("El número1 es igual a " + numero1);
-			System.out.println("El numero2 es igual a" + numero2);
+			System.out.println("El numero2 es igual a " + numero2);
 		}
 		
 		int numero3 = 12;

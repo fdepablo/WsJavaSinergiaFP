@@ -7,9 +7,13 @@ public class Ejercicio10B {
 
     // Devuelve el multiplicador según el nivel de poder del mago
     public static int obtenerMultiplicador(int poder) {
-        if (poder <= 3) return 1;
-        else if (poder <= 7) return 2;
-        else return 3;
+        if (poder <= 3) {
+        	return 1;
+        }else if (poder <= 7) {
+        	return 2;
+        }else {
+        	return 3;
+        }
     }
 
     // Calcula el daño total del mago usando el multiplicador
@@ -42,7 +46,7 @@ public class Ejercicio10B {
         System.out.print("¿Quieres introducir los puntos de vida del mago (1) o generarlos aleatoriamente (2)? ");
         int opcionVida = sc.nextInt();
 
-        int vidaMago;
+        int vidaMago = 0;
         if (opcionVida == 1) {
             System.out.print("Introduce los puntos de vida del mago (10–20): ");
             vidaMago = sc.nextInt();

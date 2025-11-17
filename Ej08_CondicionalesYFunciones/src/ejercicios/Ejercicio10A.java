@@ -5,9 +5,13 @@ import java.util.Scanner;
 public class Ejercicio10A {
 
     public static int obtenerMultiplicador(int poder) {
-        if (poder <= 3) return 1;
-        else if (poder <= 7) return 2;
-        else return 3;
+        if (poder <= 3) {
+        	return 1;
+        }else if (poder <= 7) {
+        	return 2;
+        }else {
+        	return 3;
+        }
     }
 
     public static int calcularDanioMago(int poder) {
