@@ -1,5 +1,4 @@
 package _01_condicionales;
-
 public class _04_IF_02 {
 
 	public static void main(String[] args) {
