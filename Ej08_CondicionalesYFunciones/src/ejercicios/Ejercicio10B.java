@@ -112,7 +112,8 @@ public class Ejercicio10B {
         } else if (vidaMago >= 1) {
             System.out.println("El mago sobrevive, pero no ha logrado vencer a todos los monstruos.");
         } else {
-            System.out.println("El mago cae tras un duro combate...");
+        	System.out.println("¡El mago ha derrotado a los dos monstruos!");
+            System.out.println("El mago cae tras un duro combate... Sera recordado por los bardos...");
         }
     }
 }
