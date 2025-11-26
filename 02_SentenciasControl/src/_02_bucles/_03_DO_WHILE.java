@@ -23,9 +23,17 @@ public class _03_DO_WHILE {
 		//1 y 10
 		int numero = 0;
 		Scanner sc = new Scanner(System.in);
+		int contadorFallos = 0;
 		do {
 			System.out.println("Introduzca un número entre el 1 y el 10");
 			numero = sc.nextInt();
+			if(numero < 1 || numero > 10){
+				contadorFallos++;
+				if(contadorFallos == 1)	System.out.println("Eres bobito");
+				else if(contadorFallos == 2) System.out.println("Eres muy bobito");
+				else if(contadorFallos == 3) System.out.println("Eres super bobito");
+				else System.out.println("He perdido la esperanza contigo");
+			}
 		}while(numero < 1 || numero > 10);
 		
 		System.out.println("Numero entre 1 y 10");
