@@ -131,15 +131,5 @@ public class _06_EjerciciosControlBucles {
 		for(int i = 1; i <= 5; i++) {
 			System.out.println(i++);
 		}
-		
-		//Ejercicio 11
-		for(int i = 1; i <= 5; i++) {
-			System.out.println(++i);
-		}
-		
-		//Ejercicio 12
-		for(int i = 0; i <= 5; i+=2){
-			System.out.println(++i);
-		}
 	}
 }
