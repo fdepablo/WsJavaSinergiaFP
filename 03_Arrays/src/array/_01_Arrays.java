@@ -7,7 +7,7 @@ public class _01_Arrays {
 		//almacenar una colección de datos de un mismo tipo.
 
 		// Podemos entender un array como tener muchas variables
-		//de un mismo declaradas en una estructura.
+		//de un mismo tipo declaradas en una estructura.
 		
 		//Ejemplo, si queremos almacenar 5 números en memoria
 		//necesitariamos 5 variables de tipo int
@@ -148,9 +148,6 @@ public class _01_Arrays {
 		//La posición 5 del array tiene de valor: 8
 		//La posición 6 del array tiene de valor: NO EXISTE
 		//La posición 4 del array tiene de valor: 7
-		//La posición tercera del array tiene de valor: 5
-		//La posición quinta del array tiene de valor: 7
-		//La posición septima del array tiene de valor: NO EXISTE
 	}
 
 }
