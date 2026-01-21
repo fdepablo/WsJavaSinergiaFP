@@ -1,6 +1,6 @@
 package _05_arrays;
 
-public class MainObjetosArrays {
+public class MainObjetosArrays02 {
 
 	public static void main(String[] args) {		
 		Restaurante r1 = new Restaurante();
