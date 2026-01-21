@@ -28,7 +28,7 @@ public class Restaurante {
 		for(double puntuacion : puntuaciones) {
 			suma += puntuacion;
 		}
-		double media = suma + puntuaciones.length;
+		double media = suma / puntuaciones.length;
 		return media;
 	}
 	
