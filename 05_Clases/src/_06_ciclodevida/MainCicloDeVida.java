@@ -44,7 +44,7 @@ public class MainCicloDeVida {
 		
 		//En POO existe el concepto de "null". Null representa "vacio",
 		//nulo, ausencia de valor y se usa la palabra reservada "null"
-		//Solamente puede ser nulos las referenciaww
+		//Solamente puede ser nulos las referencias
 		Persona p2 = null;
 		String s = null;
 		Random rd = null;
