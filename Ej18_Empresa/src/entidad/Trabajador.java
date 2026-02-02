@@ -40,4 +40,15 @@ public class Trabajador {
 			return false;
 		}
 	}
+	
+	public boolean esIgual(Trabajador t) {
+		if(this != null &&
+				this.nombre.equals(t.nombre) &&
+				this.DNI.equals(t.DNI) &&
+				this.salario == t.salario) {
+			return true;
+		}else {
+			return false;
+		}
+	}
 }
