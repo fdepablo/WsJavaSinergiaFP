@@ -1,4 +1,4 @@
-# 📌 JavaBeans y Encapsulación en Java
+# 📌 JavaBeans y Encapsulación
 
 ------------------------------------------------------------------------
 
@@ -7,16 +7,16 @@
 Un **JavaBean** es una clase Java que sigue una serie de convenciones
 para:
 
--   Encapsular datos\
--   Facilitar su uso en frameworks (Spring, Hibernate, etc.)\
+-   Encapsular datos
+-   Facilitar su uso en frameworks (Spring, Hibernate, etc.)
 -   Mantener el código organizado y reutilizable
 
 ------------------------------------------------------------------------
 
 ## ⚠️ Importante
 
-Hasta ahora no lo habíamos aplicado siempre, pero **a partir de este
-momento es obligatorio crear las clases con estructura JavaBean**.
+Hasta ahora no lo habíamos aplicado siempre, pero <b>a partir de este
+momento es obligatorio crear las clases con estructura JavaBean</b>.
 
 ------------------------------------------------------------------------
 
@@ -27,7 +27,7 @@ Programación Orientada a Objetos (POO).
 
 Consiste en:
 
--   **Ocultar los detalles internos** de una clase\
+-   **Ocultar los detalles internos** de una clase
 -   Permitir el acceso a los datos solo mediante métodos controlados
 
 ------------------------------------------------------------------------
@@ -36,7 +36,7 @@ Consiste en:
 
 En Java se consigue principalmente mediante:
 
--   Atributos declarados como `private`\
+-   Atributos declarados como `private`
 -   Métodos públicos `getters` y `setters`
 
 Ejemplo:
@@ -45,7 +45,7 @@ Ejemplo:
 private String nombre;
 
 public String getNombre() {
-    return nombre;
+    return this.nombre;
 }
 
 public void setNombre(String nombre) {
@@ -57,7 +57,7 @@ public void setNombre(String nombre) {
 
 # ⭐ Características principales de un JavaBean
 
-Un JavaBean debe cumplir:
+Un JavaBean debe cumplir estas <b>Tres caracteristicas </B>:
 
 -   Tener atributos privados (**encapsulación**)\
 -   Proporcionar métodos públicos **getters y setters**\

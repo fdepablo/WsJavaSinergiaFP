@@ -4,13 +4,16 @@ public class MainRelaciones {
 	public static void main(String[] args) {
 		
 		Direccion d1 = new Direccion();
+		//d1.tipoVia = "Calle";
 		d1.setTipoVia("Calle");
+		//d1.nombreVia = "Gran Via";
 		d1.setNombreVia("Gran Via");
 		d1.setCiudad("Madrid");
 		d1.setCp("28224");
 
 		Persona p1 = new Persona();
 		p1.setNombre("Alex Capo");
+		//p1.direccion = d1;
 		p1.setDireccion(d1);
 
 		CuentaBancaria cb1 = new CuentaBancaria();
@@ -30,9 +33,12 @@ public class MainRelaciones {
 
 		//Para acceder a la información usamos los getters
 		System.out.println("-------------------------");
+		//System.out.println("Nombre: " + p1.nombre);
 		System.out.println("Nombre: " + p1.getNombre());
 		
 		System.out.println("-------------------------");
+		System.out.println("-------------------------");
+		//System.out.println("Ciudad: " + p1.direccion.ciudad);
 		System.out.println("Ciudad: " + p1.getDireccion().getCiudad());
 		System.out.println("Tipo de vía: " + p1.getDireccion().getTipoVia());
 		System.out.println("Nombre de vía: " + p1.getDireccion().getNombreVia());
