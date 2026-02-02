@@ -1,4 +1,4 @@
-package _08_visibilidades.otropaquete;
+package _08_visibilidades.auxiliar;
 
 import _08_visibilidades.Estudiante;
 
