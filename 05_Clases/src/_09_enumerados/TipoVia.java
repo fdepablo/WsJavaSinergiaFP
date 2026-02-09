@@ -18,6 +18,7 @@ package _09_enumerados;
 
 //Se crean como una clase, pero en vez de poner "class" se
 //pone "enum"
+//En eclipse se crea como una clase, pero eligiendo "enum"
 public enum TipoVia {
 	CALLE,AVENIDA,PLAZA,CAÑADA_REAL
 	//CALLE será la posicion 0 del array
