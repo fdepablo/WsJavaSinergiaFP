@@ -4,7 +4,7 @@ public class MainEmpresa {
 
 	public static void main(String[] args) {
 		Trabajador t1 = new Trabajador("12345678P", "Jesus", 2000);
-		Trabajador t2 = new Trabajador("8765432X", "Marta", 2500);
+		Trabajador t2 = new Trabajador("8765432X", "Marta", 3500);
 		
 		System.out.println(t1.esDNIValido());
 		System.out.println(t2.esDNIValido());
@@ -31,6 +31,24 @@ public class MainEmpresa {
 		System.out.println(t3);		
 		
 		System.out.println(e1.obtenerNumeroDeTrabajadores());
+		
+		System.out.println(e1.obtenerGastoTotalEmpresa());
+		
+		System.out.println(e1.obtenerNumeroTrabajadoresSuperior3000());
+		
+		System.out.println(e1.obtenerNumeroTrabajadoresInferiorSMI());
+		
+		System.out.println(e1.obtenerNumeroTrabajadoresGananMas(2500));
+		System.out.println(e1.obtenerNumeroTrabajadoresGananMas(500));
+		System.out.println(e1.obtenerNumeroTrabajadoresGananMas(4500));
+		
+		System.out.println(e1.tienenTodosTrabajadoresDNIValido());
+		
+		Empresa e2 = new Empresa();
+		e2.nombre = "Churreria San Antonio";
+		e2.NIF = "98989899X";
+		
+		System.out.println(e1.esMismaEmpresa(e2));
 		
 	}
 

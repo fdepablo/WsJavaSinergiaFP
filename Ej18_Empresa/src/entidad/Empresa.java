@@ -42,5 +42,62 @@ public class Empresa {
 	public int obtenerNumeroDeTrabajadores() {
 		return this.trabajadores.length;
 	}
+	
+	public double obtenerGastoTotalEmpresa() {
+		double gastoTotal = 0;//acumulador
+		for(Trabajador t : trabajadores) {
+			gastoTotal += t.salario;
+		}
+		
+		return gastoTotal;
+	}
+	
+	public int obtenerNumeroTrabajadoresSuperior3000() {
+		int contador = 0;
+		for(Trabajador t : trabajadores) {
+			if(t.salario > 3000) {
+				contador++;
+			}
+		}
+		return contador;
+	}
+	
+	public int obtenerNumeroTrabajadoresInferiorSMI() {
+		int contador = 0;
+		for(Trabajador t : trabajadores) {
+			if(t.salario < 1134) {
+				contador++;
+			}
+		}
+		return contador;
+	}
+	
+	public int obtenerNumeroTrabajadoresGananMas(double cantidad) {
+		int contador = 0;
+		for(Trabajador t : trabajadores) {
+			if(t.salario > cantidad) {
+				contador++;
+			}
+		}
+		return contador;
+	}
+	
+	public boolean tienenTodosTrabajadoresDNIValido() {
+		for(Trabajador t : trabajadores) {
+			if(!t.esDNIValido()) {
+				return false;
+			}
+		}
+		return true;
+	}
+	
+	public boolean esMismaEmpresa(Empresa e) {
+		if(this.nombre.equals(e.nombre) 
+				&& this.NIF.equals(e.NIF)) {
+			return true;
+		}else {
+			return false;
+		}
+	}
 
 }
